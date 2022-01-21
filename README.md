@@ -8,9 +8,8 @@
 
 ### Table of Contents:
 
-**[Git Commands](#git-commands)**<br>
+**[Git](#git)**<br>
 **[C# Command-line](#csharp-command-line)**<br>
-**[Dotnet Commands](#dotnet-commands)**<br>
 **[Value and Reference Types](#value-and-reference-types)**<br>
 **[C# Variables](#csharp-variables)**<br>
 **[C# Operators](#csharp-operators)**<br>
@@ -44,3 +43,108 @@
 <br>
 
 ## Git
+
+- ### **Version Control**: a means for managing your source code
+- ### **Git:** A **[distributed version-control](https://en.wikipedia.org/wiki/Distributed_version_control) system (DVCS)** for tracking changes in [source code](https://en.wikipedia.org/wiki/Source_code) during [software development](https://en.wikipedia.org/wiki/Software_development). It is designed for coordinating work among [programmers](https://en.wikipedia.org/wiki/Programmer), but it can be used to track changes in any set of [files](https://en.wikipedia.org/wiki/Computer_file).
+- ### **Github:** GitHub is where our **Remote repository** will live. Our computer is where our **Local repository** will live.
+- ### **Commit:** A commit is the Git equivalent of a "save".
+- `git init`: initializes a new repository in the current directory
+- `git status`: The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git
+- `git clone <remote url goes here>`: puts a copy of the remote repository on our machine
+- `git push`: push those changes to the remote repository
+  - You must first use `git push -u origin main` BEFORE you can just use `git push`
+- `git pull`: pulls the latest version of the remote repository to our machine.
+- `git add <filename goes here>`: stages only the specified file
+- `git add .`: stages all files in the directory so they are ready to commit
+- `git commit -m "message goes here"`: commits the changes in the currently staged files and includes a message
+- `git branch`: lists the branches in the repository
+- `git branch <branchName>`: creates a new branch
+- `git checkout <branchName>`: switches to a specific branch
+- `git checkout –b <branchName>`: creates a new branch, and switches to that branch at the same time
+- `git merge <branchName>`: merges a specific branch into the current branch
+- `git pull`: downloads content from a remote repository and immediately update the local repository to match that content
+- `git log`: display our commit history
+- `git diff`: enables you to compare changes in the working directory against a previously committed version
+- `git config --global user.email "YourEmailAddressGoesHere@gmail.com"`: sets the user email
+- `git config --global user.name "Your Name"`: sets the user name
+
+<br>
+<br>
+<br>
+
+## Csharp Command-line
+
+- ### **CLI**: The .NET Core command-line interface (CLI) is a new cross-platform toolchain for developing .NET applications. The CLI is a foundation upon which higher-level tools, such as Integrated Development Environments (IDEs), editors, and build orchestrators, can rest.
+- ### **Solution file (.sln)** - a solution is a container used by Visual Studio to organize one or more related projects. When you open a solution in Visual Studio, it automatically loads all the projects the solution contains
+- ### **Project file (.csproj)** – contains all the source code that is compiled. It also contains compiler settings and other configuration files
+- `cd`: Command-line command to change directory
+- `mkdir`: Command-line command to create a new folder (directory)
+- `dotnet <command>`: dotnet is a tool for managing .NET source code and binaries. It exposes commands that perform specific tasks, such as dotnet build and dotnet run.
+- `dotnet new`: Creates a new project, configuration file, or solution based on the specified template.
+  - Example: `dotnet new console` ←- creates a new console application for us
+- `dotnet build`: Builds a project and all of its dependencies.
+- `dotnet run`: Runs source code without any explicit compile or launch commands.
+- `dotnet sln`: The dotnet sln command provides a convenient way to add, remove, and list projects in a solution file.
+- `dotnet test`: The dotnet test command is used to execute unit tests in a given project. The dotnet test command launches the test runner console application specified for a project. The test runner executes the tests defined for a unit test framework (for example, MSTest, NUnit, or xUnit) and reports the success or failure of each test. If all tests are successful, the test runner returns 0 as an exit code; otherwise, if any test fails, it returns 1. _If the project path is not specified, it defaults to the current directory._
+  - Example: `dotnet test ~/projects/test1/test1.csproj`
+- `dotnet clean`: The dotnet clean command cleans the output of the previous build. It's implemented as an MSBuild target, so the project is evaluated when the command is run. Only the outputs created during the build are cleaned. Both intermediate (_obj_) and final output (_bin_) folders are cleaned.
+
+<br>
+<br>
+<br>
+
+## Value and Reference Types
+
+C# is a strongly AND statically typed object-oriented programming language.
+
+- ### **Strongly typed**: once a variable’s type is declared, it cannot change. (Although you can change its value)
+- ### **Statically typed**: every variable must have a type at compile time.
+- ### **Signed**: A signed integer is one with either a plus or minus sign in front. (It can be either positive or negative)
+- ### **Unsigned**: integer is assumed to be positive
+- ### **The Stack**: The Stack is used for static memory allocation. This is where Value Types are stored. It utilizes a LAST IN, FIRST OUT procedure.
+- ### **The Heap**: The Heap is used for dynamic memory allocation. This is where Reference types are stored. Elements can be removed in any order from the heap.
+- ### **Value Type**: A variable of a value type contains an instance of the type.
+- ### **Reference Type**: A reference type contains a reference (\*pointer) to an instance of the type.
+
+<br>
+<br>
+<br>
+
+## Csharp Variables
+
+A variable is a memory location. It has a name that is associated with that location. The memory location is used to hold data. The key difference when comparing a constant to a variable is that the value associated with a variable name may change during the execution of the program.
+
+- ### **Variable**: A variable is a container for storing value.
+- ### **Constant**: A constant is a container for storing a value that never changes.
+- ### **Variable Name**: A variable name is an identifier for the value stored in a particular location of computer memory
+- ### **Data Type**: A data type specifies the size and type of variable values.
+- ### **Camel Case**: The first letter of the first word will be lowercase, for the first time, but uppercase everytime after
+  - Example:
+  ```cs
+  string camelCaseExample;
+  ```
+- ### **Pascal Case**: The first letter of every word is uppercase
+  - Example:
+  ```cs
+  string PascalCaseExample;
+  ```
+  <br>
+  <br>
+  <br>
+  
+  ## Csharp Operators
+
+- ### **Operator**: Operators are special symbols that perform actions on operands
+  - Example : `2 + 2` ( **2** is the operand and **+** is the operator)
+- ### **Operand**: The quantity on which the operation is performed.
+- ### **Unary Operator**: An operator with only 1 operand.
+  - Example: `x++`
+  - Example: `!isTrue;`
+  - Example: `--x;`
+- ### **Binary Operator**: An operator with 2 operands.
+  - Example: `1 + 1`; (**+** is the binary operator)
+- ### **Ternary Operator**: An operator that requires 3 operands.
+  ```cs
+  var answer = x < y ? true : false;  // ? is the ternary operator
+  ```
+<br>
