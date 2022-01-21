@@ -97,7 +97,7 @@
 
 <br>
 
-## C# is a strongly AND statically typed object-oriented programming language.
+### **C# is a strongly AND statically typed object-oriented programming language.**
 
 - ### **Strongly typed**: once a variable’s type is declared, it cannot change. (Although you can change its value)
 - ### **Statically typed**: every variable must have a type at compile time.
