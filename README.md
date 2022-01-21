@@ -4,8 +4,6 @@
 |---|---|---|---|---|---|
 | <img src="https://edent.github.io/SuperTinyIcons/images/svg/git.svg" width="125" title="git"/>  | <img src="https://gistcdn.githack.com/johndward01/95c1d09de9e3707cfb4154989962376d/raw/f74007782421219d9e9ab4b6a27de2e172a8b714/csharp-logo.svg" width="125" title="c#"/> | <img src="https://www.vectorlogo.zone/logos/mysql/mysql-official.svg" width="125" title="mysql"/>  | <img src="https://edent.github.io/SuperTinyIcons/images/svg/html5.svg" width="125" title="HTML5" /> |  <img src="https://edent.github.io/SuperTinyIcons/images/svg/css3.svg" width="125" title="CSS3"/>  | <img src="https://edent.github.io/SuperTinyIcons/images/svg/javascript.svg" width="125" title="JavaScript" />|
 
-<br>
-
 ### Table of Contents:
 
 **[Git](#git)**<br>
@@ -40,6 +38,8 @@
 **[JS Intro](#javascript-intro)**<br>
 **[ASP.NET Core MVC](#mvc)**<br>
 
+<br>
+<br>
 <br>
 
 ## Git
@@ -95,8 +95,6 @@
 
 ## Value and Reference Types
 
-<br>
-
 ### **C# is a strongly AND statically typed object-oriented programming language.**
 
 - ### **Strongly typed**: once a variable’s type is declared, it cannot change. (Although you can change its value)
@@ -114,8 +112,6 @@
 
 ## Csharp Variables
 
-A variable is a memory location. It has a name that is associated with that location. The memory location is used to hold data. The key difference when comparing a constant to a variable is that the value associated with a variable name may change during the execution of the program.
-
 - ### **Variable**: A variable is a container for storing value.
 - ### **Constant**: A constant is a container for storing a value that never changes.
 - ### **Variable Name**: A variable name is an identifier for the value stored in a particular location of computer memory
@@ -130,6 +126,7 @@ A variable is a memory location. It has a name that is associated with that loca
   ```cs
   class PascalCaseExample;
   ```
+  
   <br>
   <br>
   <br>
@@ -149,4 +146,15 @@ A variable is a memory location. It has a name that is associated with that loca
   ```cs
   bool answer = x < y ? true : false;  // ? is the ternary operator
   ```
+- ### **Logical Operators**: Logical operators are used to combine two or more conditions or to complement the evaluation of the original condition in consideration.
+
+- ### **Assignment Operator**: Assignment operators are used to assign a value to a variable. The left side operand of the assignment operator is a variable and the right side operand of the assignment operator is a value.
+  > Note: The **value** on the right side must be of the same **data-type** as the variable on the left side, otherwise the compiler will raise an error.
+
 <br>
+<br>
+<br>
+
+## Selection Statements
+
+**Selection statements** enable you to branch to different sections of code, depending on one or more specified conditions.
