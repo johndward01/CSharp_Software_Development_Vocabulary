@@ -126,7 +126,7 @@ A variable is a memory location. It has a name that is associated with that loca
 - ### **Pascal Case**: The first letter of every word is uppercase
   - Example:
   ```cs
-  string PascalCaseExample;
+  class PascalCaseExample;
   ```
   <br>
   <br>
@@ -145,6 +145,6 @@ A variable is a memory location. It has a name that is associated with that loca
   - Example: `1 + 1`; (**+** is the binary operator)
 - ### **Ternary Operator**: An operator that requires 3 operands.
   ```cs
-  var answer = x < y ? true : false;  // ? is the ternary operator
+  bool answer = x < y ? true : false;  // ? is the ternary operator
   ```
 <br>
