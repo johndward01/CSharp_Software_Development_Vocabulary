@@ -481,7 +481,7 @@
 ## HTML Intro
 
 - ### HTML: The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. 
-- ### HyperText: Hypertext is text displayed on a computer display or other electronic devices with references (hyperlinks) to other text that the reader can immediately access. Hypertext documents are interconnected by hyperlinks, which are typically activated by a mouse click, keypress set, or screen touch.
+- ### HyperText: Hypertext is text displayed on a computer display or other electronic devices with references [hyperlinks](https://en.wikipedia.org/wiki/Hyperlink) to other text that the reader can immediately access. Hypertext documents are interconnected by hyperlinks, which are typically activated by a mouse click, keypress set, or screen touch.
 - ### HTML Element: An HTML element is defined by a start tag, some content, and an end tag.
 - ### HTML Attribute: HTML attributes provide additional information about HTML elements.
 - ### Block Level Elements: HTML (Hypertext Markup Language) elements historically were categorized as either "block-level" elements or "inline-level" elements. Since this is a presentational characteristic it is nowadays specified by CSS in the Flow Layout. A Block-level element occupies the entire horizontal space of its parent element (container), and vertical space equal to the height of its contents, thereby creating a "block".
