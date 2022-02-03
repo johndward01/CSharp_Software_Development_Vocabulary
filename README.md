@@ -7,12 +7,12 @@
 Table of Contents:
 
 **[Git](#git)**<br>
-**[C# Command-line](#csharp-command-line)**<br>
+**[C# Command-line](#CSharp-command-line)**<br>
 **[Value and Reference Types](#value-and-reference-types)**<br>
-**[C# Variables](#csharp-variables)**<br>
-**[C# Operators](#csharp-operators)**<br>
+**[C# Variables](#CSharp-variables)**<br>
+**[C# Operators](#CSharp-operators)**<br>
 **[Selection Statements](#selection-statements)**<br>
-**[C# Syntax Sugar](#csharp-syntax-sugar)**<br>
+**[C# Syntax Sugar](#CSharp-syntax-sugar)**<br>
 **[Iteration Statements & Loops](#iteration-statements-and-loops)**<br>
 **[Methods](#methods)**<br>
 **[Method Overloading](#method-overloading)**<br>
@@ -30,7 +30,7 @@ Table of Contents:
 **[Test Driven Development](#test-driven-development)**<br>
 **[SQL Intro](#sql-intro)**<br>
 **[SQL Joins](#sql-joins)**<br>
-**[C# ORM and Dapper](#csharp-orm-and-dapper)**<br>
+**[C# ORM and Dapper](#CSharp-orm-and-dapper)**<br>
 **[APIs and JSON](#apis-and-json)**<br>
 **[IDE Parts: Google Chrome Inspector](#google-chrome-inspector)**<br>
 **[HTML Intro](#html-intro)**<br>
@@ -76,7 +76,7 @@ Table of Contents:
 <br>
 <br>
 
-## Csharp Command-line
+## CSharp Command-line
 
 - **CLI**: The .NET Core command-line interface (CLI) is a new cross-platform toolchain for developing .NET applications. The CLI is a foundation upon which higher-level tools, such as Integrated Development Environments (IDEs), editors, and build orchestrators, can rest.
 - **Solution file (.sln)** - a solution is a container used by Visual Studio to organize one or more related projects. When you open a solution in Visual Studio, it automatically loads all the projects the solution contains
@@ -114,7 +114,7 @@ Table of Contents:
 <br>
 <br>
 
-## Csharp Variables
+## CSharp Variables
 
 - **Variable**: A variable is a container for storing value.
 - **Constant**: A constant is a container for storing a value that never changes.
@@ -127,7 +127,7 @@ Table of Contents:
   <br>
   <br>
 
-  ## Csharp Operators
+  ## CSharp Operators
 
 - **Operator**: Operators are special symbols that perform actions on operands
 - **Operand**: The quantity on which the operation is performed.
@@ -165,7 +165,7 @@ Table of Contents:
 <br>
 <br>
 
-## C# Syntax Sugar
+## CSharp Syntax Sugar
 
 - **CCR**: Clear, Concise, and Readable
 - **Syntax**: the grammar for programming
@@ -429,7 +429,7 @@ Table of Contents:
 <br>
 <br>
 
-## C# ORM and Dapper
+## CSharp ORM and Dapper
 
 - **Object Relational Mappers (ORMs)**: ORMs are the plumbers of the programming world. They help get data out of and back into databases from our data models. Additionally, ORM's like Dapper will handle parameterizing your SQL statements for you and make it very easy to fire a SQL query against a database and get the result mapped to C# domain class.
 - **SQL Injection**: SQL Injection is the "injection" of unexpected or malicious code into SQL statements.
