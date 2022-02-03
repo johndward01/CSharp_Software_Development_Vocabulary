@@ -274,3 +274,35 @@
 <br>
 <br
 
+## Static Keyword
+    
+- ### Static: It (the property, method or other class member) belongs to the type/class itself and not to the object instance.
+
+<br>
+<br>
+<br>
+
+## Abstract Classes
+
+- ### Abstract Class: An abstract class acts as a stubbed-out template class that other classes will derive from and use as an incomplete base. The derived class will define its own way to complete the stubbed-out template provided by the abstract class.
+
+> Note: The purpose of an abstract class is to define some common behavior that can be inherited by multiple subclasses, without implementing the entire class.
+
+- ### `abstract`: The modifier indicates that the thing being modified has a missing or incomplete implementation. The abstract modifier can be used with classes, methods, properties, indexers, and events. Use the abstract modifier in a class declaration to indicate that a class is intended only to be a base class of other classes, not instantiated on its own. Members marked as abstract must be implemented by non-abstract classes that derive from the abstract class.
+
+- ### `override`: The override modifier is required to extend or modify the abstract or virtual implementation of an inherited method, property, indexer, or event.
+- ### `virtual`: The virtual keyword is used to modify a method, property, indexer, or event declaration and allow for it to be overridden in a derived class.
+
+> Note: Method Overloading gives us static **polymorphism**
+
+> Abstract Classes give us dynamic **polymorphism** 
+
+> Note: Polymorphism is one of the 4 pillars of Object Oriented Programming! (OOPs A **P**IE)
+
+<br>
+<br>
+<br>
+
+## Interfaces
+
+- ### 
