@@ -165,7 +165,7 @@ Table of Contents:
 <br>
 <br>
 
-## Syntax Sugar
+## C# Syntax Sugar
 
 - **CCR**: Clear, Concise, and Readable
 - **Syntax**: the grammar for programming
