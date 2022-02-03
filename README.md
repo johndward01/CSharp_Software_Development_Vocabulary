@@ -206,7 +206,7 @@
 - ### Parameters: an optional list of variables to be passed to the method
 - ### Scope/Body: the block of code to be executed when the method is called
 - ### Argument: the value you pass into the function when it is being called
-- ### Abstraction: The process of representing the essential features without including the background details is called Abstraction. In simple words, we can say that it is a process of defining a class by providing necessary details to call the object operations (i.e. methods) by hiding or removing its implementation details
+- ### Abstraction: Abstraction is used to hide the implementation details and display only what's essential
 
 > > Note: Abstraction is one of the 4 pillars of Object Oriented Programming! (OOPs **A** PIE)
 
@@ -308,4 +308,67 @@
 
 ## Interfaces
 
+- ### Interface: An interface contains definitions for a group of related functionalities that a non-abstract class or a struct must implement.
+
+> Note: Interfaces in C# provide another way to achieve runtime polymorphism.
+
+<br>
+<br>
+<br>
+
+## Factory Pattern
+
+- ### Factory Pattern: The Factory Design Pattern is a programming concept that allows one class, separate to the main program or “client”, to create new objects. By using the factory pattern to encapsulate object creation, you have one location to make changes to the way objects are instantiated. The way this is accomplished is by programming to an interface or an abstract class. When we program to an interface or ABS class, the program doesn’t care what type of object we wish to create as long as it implements the interface or inherits from the ABS class.
+
+> Note: We also use the **Repository Design Pattern in ASP.NET Core MVC!**
+
+<br>
+<br>
+<br>
+
+## LINQ
+
+- ### LINQ: Language-Integrated Query (LINQ) is the name for a set of technologies based on the integration of query capabilities directly into the C# language.
+
+> Note: You need to add the using directive using System.Linq; in order to access the LINQ Extension methods
+
+<br>
+
+### Common LINQ Methods:
+- #### `Where()`- Filters a sequence of values based on a predicate.
+- #### `Select()`- Projects each element of a sequence into a new form.
+- #### `OrderBy()`- Sorts the elements of a sequence in ascending order.
+- #### `Sum()`- Computes the sum of a sequence of numeric values.
+- #### `Average()`- Computes the average of a sequence of numeric values.
+- #### `Count()`- Returns the number of elements in a sequence.
+- #### `Min()`- Returns the minimum value in a sequence of values.
+- #### `Max()`- Returns the maximum value in a sequence of values.
+- #### `Take()`- Returns a specified number of contiguous elements from the start of a sequence.
+- #### `Append()`- Appends a value to the end of the sequence.
+- #### `GroupBy()`- Groups the elements of a sequence according to a specified key selector function and creates a result value from each group and its key.
+- #### `ThenBy()`- Performs a subsequent ordering of the elements in a sequence in ascending order.
+
+<br>
+<br>
+<br>
+
+## Debugging
+
+- ### Debugging: Debugging means to run your code step by step in a debugging tool like Visual Studio, to find the exact point where you made a programming mistake. You then understand what corrections you need to make in your code, and debugging tools often allow you to make temporary changes so you can continue running the program.
+- ### Compile Time Errors: A compile-time error is an error that shows up when you’re writing code, it will be accompanied by a red squiggly and show up in the error window. 
+- ### Runtime Error: A Runtime error is an error that occurs while your application is running. While in debug mode this will show up as an exception.
+- ### Logical Error: A logical error is an error that while you can still run your program and it will not crash, you won’t be getting the results you might expect.
+- ### Breakpoints: Breakpoints are one of the most important debugging techniques in your developer's toolbox. You set breakpoints wherever you want to pause debugger execution.
+- ### Step Into: To stop on each statement when you're debugging, use Debug > Step Into, or select F11. 
+  - The debugger steps through code statements, not physical lines. For example, an if clause can be written on one line.
+- ### Step Out: Step Out continues running code and suspends execution when the current function returns. The debugger skips through the current function.
+- ### Step Over: 	If the current line contains a function call, Step Over runs the code and then suspends execution at the first line of code after the called function returns.
+
+<br>
+<br>
+<br>
+
+## Exception Handling
+
 - ### 
+
