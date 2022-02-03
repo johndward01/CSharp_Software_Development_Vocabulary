@@ -500,4 +500,20 @@ Table of Contents:
 
 ## CSS Intro
 
-- **CSS**:
+- **CSS**: Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.
+- **Inline CSS**: Using an inline style is one of the ways to insert a style sheet. With an inline style, a unique style is applied to a single element. In order to use an inline style, add the style attribute to the relevant tag.
+- **Embedded/Internal CSS**: Internal styles are defined within the style element, inside the head section of an HTML page.
+- **External CSS**: With this method, all styling rules are contained in a single text file, which is saved with the .css extension. This CSS file is then referenced in the HTML using the tag. The element goes inside the head section.
+- **CSS Element Selector**: The element selector selects HTML elements based on the element name.
+- **CSS ID Selector**: The id selector uses the id attribute of an HTML element to select a specific element. The id of an element is unique within a page, so the id selector is used to select one unique element. To select an element with a specific id, write a hash `#` character, followed by the id of the element.
+- **CSS Class Selector**: The Class selector selects HTML elements with a specific class attribute. To select elements with a specific class, write a period `.` character, followed by the class name.
+- **CSS Universal Selector**: The universal selector `*` selects all HTML elements on the page.
+
+<br>
+<br>
+<br>
+
+## JavaScript Intro
+
+- **JavaScript**: JavaScript is a dynamic programming language that's used for web development, in web applications, for game development, and lots more. It allows you to implement dynamic features on web pages that cannot be done with only HTML and CSS.
+- 
