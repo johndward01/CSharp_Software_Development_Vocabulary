@@ -194,4 +194,14 @@ x %= y; // same as long form x = x % y;
 - ###  CCR: Clear, Concise, and Readable
 - ### Syntax: the grammar for programming
 - ### Best Practices: This is syntax that is not required, but is considered the best thing to do.
+- ### Syntax Sugar: This is syntax that is not required and not necessarily best practice, but merely makes coding more convenient or concise.
+- ### Code Smell: Any indicator in a program that a potentially deep-seated issue is present. (usually subjective and depends on factors including the particular language and experience)
+- ### Explicit Typing: When you specifically say what each variable’s type is.
+- ### Inferred Typing: Inferred typing is where the compiler defines the variable’s type by looking at what the variable’s value is and inferring what the most probable type is.
+
+<br>
+<br>
+<br>
+
+## Iteration Statements and Loops
 
