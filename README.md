@@ -206,6 +206,9 @@
 - ### Parameters: an optional list of variables to be passed to the method
 - ### Scope/Body: the block of code to be executed when the method is called
 - ### Argument: the value you pass into the function when it is being called
+- ### Abstraction: The process of representing the essential features without including the background details is called Abstraction. In simple words, we can say that it is a process of defining a class by providing necessary details to call the object operations (i.e. methods) by hiding or removing its implementation details
+
+> > Note: Abstraction is one of the 4 pillars of Object Oriented Programming! (OOPs **A** PIE)
 
 <br>
 <br>
