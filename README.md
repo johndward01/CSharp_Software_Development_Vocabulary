@@ -536,3 +536,7 @@ Table of Contents:
 Views display data using the model to the user and also enables them to modify the data.
 - **Controller**: The Controller handles the user request. Typically, users interact with the View, which in-turn raises the appropriate URL request, this request will then be handled by a controller. The controller renders the appropriate view with the model data as a response.
 - **Razor**: Razor is a markup syntax for embedding .NET based code into webpages. The Razor syntax consists of Razor markup, C#, and HTML. Files containing Razor generally have a .cshtml file extension. Razor is also found in Razor component files (.razor). Razor syntax is similar to the templating engines of various JavaScript single-page application (SPA) frameworks, such as Angular, React, VueJs, and Svelte.
+
+<br>
+<br>
+<br>
