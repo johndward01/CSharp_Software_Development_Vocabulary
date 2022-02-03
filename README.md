@@ -191,7 +191,7 @@ x %= y; // same as long form x = x % y;
 
 ## Syntax Sugar
 
-- CCR: Clear, Concise, and Readable
-- Syntax: the grammar for programming
-- Best Practices: This is syntax that is not required, but is considered the best thing to do.
+- ###  CCR: Clear, Concise, and Readable
+- ### Syntax: the grammar for programming
+- ### Best Practices: This is syntax that is not required, but is considered the best thing to do.
 
