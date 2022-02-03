@@ -428,6 +428,8 @@
 <br>
 <br>
 
-## Object Relational Mapper (ORM) and Dapper
+## C# ORM and Dapper
+
+- ### SQL Injection: 
 
 
