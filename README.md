@@ -258,7 +258,7 @@
 
 > Note: Encapsulation is also called information hiding.
 
-> Note: Encapsulation is one of the 4 pillars of Object Oriented Programming!
+> Note: Encapsulation is one of the 4 pillars of Object Oriented Programming! (OOPs A PI**E**)
 
 <br>
 <br>
@@ -268,7 +268,7 @@
 
 - ### Inheritance enables you to create new classes that reuse, extend, and modify the behavior that is defined in other classes.
 
-> Note: Inheritance is one of the 4 pillars of Object Oriented Programming!
+> Note: Inheritance is one of the 4 pillars of Object Oriented Programming! (OOPs A P**I**E)
 
 <br>
 <br>
