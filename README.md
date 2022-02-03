@@ -249,4 +249,26 @@
 
 ## Encapsulation
 
+- ### Encapsulation: groups of related properties, methods, and other members are treated as a single unit or object.
+- ### `public` - access modifier makes the member accessible from outside of the class
+- ### `private` - makes members accessible only from within the class it was created in and hides the member from the outside
+- ### `protected` - the member can only be accessed by code in the same class or in a derived class
+- ### `internal` - the member can be accessed by any code in the same assembly, but not from another assembly
+- ### `protected internal` - the member can be accessed by any code in the same assembly, or by any derived class in another assembly
+> Note: Encapsulation is also called information hiding.
+> Note: Encapsulation is one of the 4 pillars of Object Oriented Programming!
+
+<br>
+<br>
+<br>
+
+## Inheritance
+
+- ### Inheritance enables you to create new classes that reuse, extend, and modify the behavior that is defined in other classes.
+
+> Note: Inheritance is one of the 4 pillars of Object Oriented Programming!
+
+<br>
+<br>
+<br
 
