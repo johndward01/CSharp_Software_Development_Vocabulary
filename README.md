@@ -169,7 +169,7 @@ x %= y; // same as long form x = x % y;
 
 ## Selection Statements
 
-**Selection statements** enable you to branch to different sections of code, depending on one or more specified conditions.
+### **Selection statements** enable you to branch to different sections of code, depending on one or more specified conditions.
 
 ### `if` : The if statement selects a statement to execute based on the value of a Boolean expression.
 
