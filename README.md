@@ -36,7 +36,7 @@ Table of Contents:
 **[HTML Intro](#html-intro)**<br>
 **[CSS Intro](#css-intro)**<br>
 **[JS Intro](#javascript-intro)**<br>
-**[ASP.NET Core MVC](#asp.net-core-mvc)**<br>
+**[ASP.NET Core MVC](#ASPNET-Core-MVC)**<br>
 
 <br>
 <br>
@@ -526,7 +526,7 @@ Table of Contents:
 <br>
 <br>
 
-## ASP-NET-Core-MVC
+## ASPNET Core MVC
 
 - **ASP.NET Core**: 
 - **MVC**: 
