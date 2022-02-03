@@ -516,4 +516,17 @@ Table of Contents:
 ## JavaScript Intro
 
 - **JavaScript**: JavaScript is a dynamic programming language that's used for web development, in web applications, for game development, and lots more. It allows you to implement dynamic features on web pages that cannot be done with only HTML and CSS.
-- 
+- **Duck Typing**: Duck Typing is a feature in javascript where the variable attempts to behave in the manner it is used. Duck Typing refers to a duck test program. You will test something, if it quacks like a duck, and flies like a duck, it is a duck. If a method responds to any given object call, it passes the “Duck Test”.
+- **Truthy and Falsy**: In Javascript, all values have an inherit boolean value assigned to it. A falsy value is a value that is considered false when encountered in a Boolean context. We can use these in if statements.
+- **The Document Object Model (DOM)**: The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
+
+> Note: The DOM is not a programming language, but without it, the JavaScript language wouldn't have any model or notion of web pages, HTML documents, SVG documents, and their component parts. The document as a whole, the head, tables within the document, table headers, text within the table cells, and all other elements in a document are parts of the document object model for that document. They can all be accessed and manipulated using the DOM and a scripting language like JavaScript.
+
+<br>
+<br>
+<br>
+
+## ASP.NET Core MVC
+
+- **ASP.NET Core**: 
+- **MVC**: 
