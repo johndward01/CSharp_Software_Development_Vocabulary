@@ -120,16 +120,9 @@
 - ### **Constant**: A constant is a container for storing a value that never changes.
 - ### **Variable Name**: A variable name is an identifier for the value stored in a particular location of computer memory
 - ### **Data Type**: A data type specifies the size and type of variable values.
-- ### **Camel Case**: The first letter of the first word will be lowercase, for the first time, but uppercase everytime after
-  - Example:
-  ```cs
-  string camelCaseExample;
-  ```
+- ### **Camel Case**: The first letter of the first word will be lowercase, for the first time, but uppercase everytime after 
 - ### **Pascal Case**: The first letter of every word is uppercase
-  - Example:
-  ```cs
-  class PascalCaseExample;
-  ```
+ 
   
   <br>
   <br>
@@ -138,36 +131,16 @@
   ## Csharp Operators
 
 - ### **Operator**: Operators are special symbols that perform actions on operands
-  - Example : `2 + 2` ( **2** is the operand and **+** is the operator)
 - ### **Operand**: The quantity on which the operation is performed.
 - ### **Unary Operator**: An operator with only 1 operand.
-  - Example: `x++`
-  - Example: `!isTrue;`
-  - Example: `--x;`
 - ### **Binary Operator**: An operator with 2 operands.
-  - Example: `1 + 1`; (**+** is the binary operator)
 - ### **Ternary Operator**: An operator that requires 3 operands.
-  ```cs
-  bool answer = x < y ? true : false;  // ? is the ternary operator
-  ```
 - ### **Logical Operators**: Logical operators are used to combine two or more conditions or to complement the evaluation of the original condition in consideration.
 
 - ### **Assignment Operator**: Assignment operators are used to assign a value to a variable. The left side operand of the assignment operator is a variable and the right side operand of the assignment operator is a value.
   > Note: The **value** on the right side must be of the same **data-type** as the variable on the left side, otherwise the compiler will raise an error.
 
 <br>
-
-```cs
-int x = 100; // = is the simple assignment operator
-int y = 200;
-
-x += y; // same as long form x = x + y;
-x -= y; // same as long form x = x - y;
-x *= y; // same as long form x = x * y;
-x /= y; // same as long form x = x / y;
-x %= y; // same as long form x = x % y;
-```
-
 <br>
 <br>
 
