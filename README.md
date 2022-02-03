@@ -209,3 +209,17 @@ x %= y; // same as long form x = x % y;
 
 ## Iteration Statements and Loops
 
+- ### while: The while loop executes a statement or a block of statements while a specified Boolean expression evaluates to true. Because that expression is evaluated before each execution of the loop, a while loop executes zero or more times.
+- ### do-while: The do-while loop executes a statement or a block of statements while a specified Boolean expression evaluates to true. Because that expression is evaluated after each execution of the loop, a do-while loop is guaranteed to execute at least one or more times.
+- ### for: The “for” loop executes a statement or a block of statements while a specified Boolean expression evaluates to true.
+  - #### the **initializer** - runs once at the beginning and sets an initial value to serve as a counter int i = 0;
+  - #### the **conditional** - evaluates before each iteration to determine whether the loop should continue executing i < 10;
+  - #### the **increment** - after the body of the loop is executed, the increment updates the value of the counter i++;
+  - #### and the **body** - the is the block of code the loop will execute. We also call this the scope of the loop { }
+- ### foreach: A “foreach” loop executes a statement or a block of statements for each element in an instance of the type that implements the System.Collections.IEnumerable;
+
+<br>
+<br>
+<br>
+
+## Methods
