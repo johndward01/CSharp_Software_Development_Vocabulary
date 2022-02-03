@@ -381,5 +381,14 @@
 
 ## Test Driven Development
 
+- ### Test Driven Development: TDD is a process in which we write our tests first and those tests are used to drive the design of our code or application.
+- ### Red, Green, Refactor Process: 
+  - #### Red - We write the test and then watch it fail (it fails because the code needed in order for the test to pass hasn’t been written yet!). We create a test that will fail on purpose so that we know with a degree of confidence that our tests will fail when expected to - making it red
+  - #### Green - Now we write code in our software or application so that our test will pass - making it green
+  - #### Refactor - Here we change the passing code we wrote (the code that made our test pass) without changing the behavior of the code itself. We want our code to still behave as we expect. This allows us to improve code readability and possibly reduce complexity.
+
+- ### xUnit Syntax: 
+  - #### `[Fact]`: xUnit uses the [Fact] attribute to denote a parameterless unit test, which tests invariants in your code
+  - #### `[Theory]`: represents a suite of tests that execute the same code but have different input arguments.
 
 
