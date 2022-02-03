@@ -447,3 +447,37 @@
 ## APIs and JSON
 
 - ### API: API stands for Application Programming Interface. It defines how two pieces of software will communicate with each other.
+- ### JSON: JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others.
+- ### RESTful API: A RESTful API is an application program interface (API) that uses HTTP requests to GET, PUT, POST and DELETE data.
+- ### HTTP Status Codes:
+  - 1xx: Informational
+  - 2xx:  Success This class of status code indicates that the client's request was successfully received, understood, and accepted.
+  - 3xx: Redirection The client must take additional action to complete the request.
+  - 4xx: Client Error (404)
+  - 5xx – Server Error The server failed to fulfill an apparently valid request
+- ### HTTP: Hyper Text Transport Protocol: (HyperText Transfer Protocol) The communications protocol used to connect to Web servers on the Internet or on a local network (intranet). The primary function of HTTP is to establish a connection with the server and send HTML pages back to the user's browser. It is also used to download data from the server either to the browser or to any requesting application that uses HTTP.
+- ### HTTPS: HTTPS (HTTP Secure) is the encrypted version of HTTP (see HTTPS).
+
+<br>
+<br>
+<br>
+
+## Google Chrome Inspector
+
+- ### Chrome DevTools: Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser. DevTools can help you edit pages on-the-fly and diagnose problems quickly, which ultimately helps you build better websites, faster.
+- ### Elements Tab: View and change the DOM and CSS.
+- ### Console Panel: View messages and run JavaScript from the Console.
+- ### Sources panel: Debug JavaScript, persist changes made in DevTools across page reloads, save and run snippets of JavaScript, and save changes that you make in DevTools to disk.
+- ### Network panel: View and debug network activity.
+- ### Performance panel: Find ways to improve load and runtime performance.
+- ### Memory panel: Fix Memory Problems and work with the JavaScript CPU Profiler.
+- ### Application panel: Inspect all resources that are loaded, including IndexedDB or Web SQL databases, local and session storage, cookies, Application Cache, images, fonts, and stylesheets.
+- ### Security panel: Debug mixed content issues, certificate problems, and more.
+
+<br>
+<br>
+<br>
+
+## HTML Intro
+
+- ### HTML: 
