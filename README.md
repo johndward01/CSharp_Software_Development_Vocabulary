@@ -213,3 +213,13 @@
 
 ## Method Overloading
 
+- ### Method Overloading: When multiple methods share the same name but have a different signature
+> Note: The number of parameters, the order of the parameters, and the data types of the parameters change the signature
+- ### Signature: A method signature is a unique identification of a method for the C# compiler. The signature consists of a method name and the type and kind (value, reference, or output) of each of its formal parameters. Method signature does not include the return type.
+
+<br>
+<br>
+<br>
+
+## Arrays and Lists
+
