@@ -223,3 +223,30 @@
 
 ## Arrays and Lists
 
+- ### Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value. In C#, arrays are actually objects, and not just addressable regions of contiguous memory as in C and C++. Therefore, using dot notation, you have access to the properties and methods of the abstract Array class.
+- ### The C# List class represents a collection of strongly typed objects that can be accessed by index. Lists provide a more flexible way to work with groups of objects. Unlike arrays, the group of objects you work with can grow and shrink dynamically as the needs of the application change. For some collections, you can assign a key to any object that you put into the collection so that you can quickly retrieve the object by using the key.
+
+<br>
+<br>
+<br>
+
+## Classes
+
+- ### Functional Programming: Functional programming allows building a program using mathematical functions. In other words, it binds the program into a purely mathematical function. Using functional programming, the developer can build a program as a combination of separate mathematical functions.
+- ### Object-Oriented Programming: Object-oriented programming (OOP) is a programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).
+- ### Class: Classes are the cornerstone of Object-Oriented Programming. They help you take all the properties and behaviors of an object in your program, and combine them into a single object, then re-use that object wherever you need it in your program. Using classes in your code enables you to implement Encapsulation, Abstraction, Inheritance, and Polymorphism.
+- ### Object: An object is defined as a singular instance of a class or type. A class can be thought of as a blueprint, a template or a cookie cutter. A class describes an object, but it is not that object.
+- ### Class Members: Classes have members sort of like how methods have variables; however, classes are not only limited to variables. Examples:
+  - **Fields** - a variable of any type that is declared directly in a class or struct.
+  - **Properties** - a member that provides a mechanism to read, write, or compute the value of a private field.
+  - **Methods** - a code block that contains a series of statements to execute.
+  - **Constructors** - Whenever a class or struct is created, its constructor is called.
+- ### Dot Notation: The way we access the methods and properties of a class is with the ( . ) Dot operator, Dot Notation, or Class Member Access Operator.
+
+<br>
+<br>
+<br>
+
+## Encapsulation
+
+
