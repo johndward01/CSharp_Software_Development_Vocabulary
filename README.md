@@ -196,3 +196,20 @@
 <br>
 
 ## Methods
+
+- ### Method: A method, or function, helps you separate your code into modules that perform a given task... You execute this code by calling the Method. In C# a method consists of a few things:
+- ### Access Modifiers: Access modifiers are keywords used to specify the declared accessibility of a member or a type.
+- ### Return Type: the type returned by the method, or void when not returning anything
+  - void: void is the absence of a return type
+- ### Name: a descriptive method name using PascalCase
+  - PascalCase: every first letter of every word is capitalized
+- ### Parameters: an optional list of variables to be passed to the method
+- ### Scope/Body: the block of code to be executed when the method is called
+- ### Argument: the value you pass into the function when it is being called
+
+<br>
+<br>
+<br>
+
+## Method Overloading
+
