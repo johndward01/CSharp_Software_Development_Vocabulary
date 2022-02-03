@@ -152,9 +152,46 @@
   > Note: The **value** on the right side must be of the same **data-type** as the variable on the left side, otherwise the compiler will raise an error.
 
 <br>
+
+```cs
+int x = 100; // = is the simple assignment operator
+int y = 200;
+
+x += y; // same as long form x = x + y;
+x -= y; // same as long form x = x - y;
+x *= y; // same as long form x = x * y;
+x /= y; // same as long form x = x / y;
+x %= y; // same as long form x = x % y;
+```
+
 <br>
 <br>
 
 ## Selection Statements
 
 **Selection statements** enable you to branch to different sections of code, depending on one or more specified conditions.
+
+### `if` : The if statement selects a statement to execute based on the value of a Boolean expression.
+
+### `else`: An if statement with an else part selects one of the two statements to execute based on the value of a Boolean expression.
+
+### `else if`: else if statements can be used after an if statement. It will only be executed when the if condition evaluates to false. So, either if or one of the else if statements can be executed, but not both.
+
+### `switch/case`: A switch is a selection statement that chooses a single case section to execute based on if the value passed in matches the case conditional. The switch statement is a control statement different from the if statement because it evaluates a single expression against a list of possible cases. The switch statement is often used as an alternative to an if-else construct if a single expression is tested against three or more conditions.
+
+### `default`: Specifies the code block to run if all else fails.
+
+### `break`: Terminates the switch/case statement.
+
+### `case`: Each case label specifies a pattern to compare to the match expression. If they match, control is transferred to the switch section that contains the first matching case label. If no case label pattern matches the match expression, control is transferred to the section with the default case label, if there's one. If there's no default case, no statements in any switch section are executed, and control is transferred outside the switch statement.
+
+<br>
+<br>
+<br>
+
+## Syntax Sugar
+
+- CCR: Clear, Concise, and Readable
+- Syntax: the grammar for programming
+- Best Practices: This is syntax that is not required, but is considered the best thing to do.
+
