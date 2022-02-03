@@ -430,6 +430,20 @@
 
 ## C# ORM and Dapper
 
-- ### SQL Injection: 
+- ### Object Relational Mappers (ORMs): ORMs are the plumbers of the programming world. They help get data out of and back into databases from our data models. Additionally, ORM's like Dapper will handle parameterizing your SQL statements for you and make it very easy to fire a SQL query against a database and get the result mapped to C# domain class.
+- ### SQL Injection: SQL Injection is the "injection" of unexpected or malicious code into SQL statements.
+- ### Parameterized Statements: Parameterized statements allow you to abstract your statement from your parameters. Parameterized statements will sanitize your data by escaping any dangerous characters and performing any parsing or optimization necessary.
+- ### Dapper: Dapper is a .NET compatible, NuGet library ORM that you can add to your project that will extend your IDbConnection interface.
 
+> Note: Dapper has no DB specific implementation details; it works across SQLite, Oracle, MySQL, PostgreSQL, and SQL Server, to name a few.
 
+- ### Query Method: The Dapper Query is designed for any database reads, like SELECT. Query returns an IEnumerable, so a select statement will return one T for each record in the database.
+- ### Execture Method: The Dapper Execute is designed for any database writes, like INSERT, UPDATE, and DELETE. Execute only returns the number of records affected, so it can be ignored if you aren't interested in the affected records.
+
+<br>
+<br>
+<br>
+
+## APIs and JSON
+
+- ### API: API stands for Application Programming Interface. It defines how two pieces of software will communicate with each other.
