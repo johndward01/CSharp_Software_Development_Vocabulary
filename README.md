@@ -391,4 +391,12 @@
   - #### `[Fact]`: xUnit uses the [Fact] attribute to denote a parameterless unit test, which tests invariants in your code
   - #### `[Theory]`: represents a suite of tests that execute the same code but have different input arguments.
 
+> Note: `[Fact]`s typically don't contain any parameters; In contrast, the [Theory] attribute denotes a parameterized test that is true for a subset of data. That data can be supplied in a number of ways, but the most common is with an `[InlineData]` attribute.
 
+<br>
+<br>
+<br>
+
+## SQL Intro
+
+- ### 
