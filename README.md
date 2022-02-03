@@ -399,4 +399,35 @@
 
 ## SQL Intro
 
-- ### 
+- ### `SELECT`: The SELECT statement in SQL is used to read, or query, existing records in your database. 
+- ### `INSERT`: The INSERT statement in SQL is used to create a new record to your database.
+- ### `UPDATE`: The UPDATE statement in SQL is used to modify existing records in your database.
+- ### `DELETE`: The DELETE statement in SQL is used to remove existing records in your database.
+
+> Note: Without the WHERE clause in the UPDATE statement, every record in our table will be updated based on the key, value pairs provided.
+
+> Note: Without the WHERE clause in the DELETE statement, every record in our table will be deleted.
+
+<br>
+<br>
+<br>
+
+## SQL JOINS
+
+- ### `JOIN`: A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+- ### `INNER JOIN`: The INNER JOIN statement in SQL gets only the records where a match occurs on both tables.
+- ### `LEFT JOIN`: The LEFT JOIN statement in SQL gets all the records from the left table and only records from the right table where a match occurs.
+- ### `RIGHT JOIN`: The RIGHT JOIN statement in SQL gets all the records from the right table and only records from the left table where a match occurs.
+- ### `LEFT EXCLUDING JOIN`: The LEFT EXCLUDING JOIN statement in SQL gets all the records from the left table where a match does not occur on the right table.
+- ### `RIGHT EXCLUDING JOIN`: The RIGHT EXCLUDING JOIN statement in SQL gets all the records from the right table where a match does not occur on the left table. 
+- ### `FULL OUTER EXCLUDING JOIN`: The FULL OUTER EXCLUDING JOIN statement in SQL gets all the records from both the left and right tables where a match does not occur in either table.
+
+> Note: Although Full Outer Excluding Join is available to you, there are very few cases where this Join will be required.
+
+<br>
+<br>
+<br>
+
+## Object Relational Mapper (ORM) and Dapper
+
+
