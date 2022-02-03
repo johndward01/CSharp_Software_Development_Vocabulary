@@ -255,7 +255,9 @@
 - ### `protected` - the member can only be accessed by code in the same class or in a derived class
 - ### `internal` - the member can be accessed by any code in the same assembly, but not from another assembly
 - ### `protected internal` - the member can be accessed by any code in the same assembly, or by any derived class in another assembly
+
 > Note: Encapsulation is also called information hiding.
+
 > Note: Encapsulation is one of the 4 pillars of Object Oriented Programming!
 
 <br>
